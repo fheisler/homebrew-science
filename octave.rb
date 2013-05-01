@@ -29,11 +29,11 @@ class Octave < Formula
 
   # additional features
   depends_on 'suite-sparse'
-  depends_on 'glpk'
+  #depends_on 'glpk'
   depends_on 'graphicsmagick' => :recommended
   depends_on 'hdf5'
   depends_on 'pcre'
-  depends_on 'qhull'
+  #depends_on 'qhull'
   depends_on 'qrupdate'
 
   if build.include? 'without-fltk'
